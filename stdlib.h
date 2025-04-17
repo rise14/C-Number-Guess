@@ -1,5 +1,12 @@
+#ifndef STDLIB_H
+#define STDLIB_H
 
-#include "stdlib.h"
+#include <stdlib.h> // Include the standard library
+
+// Declare the process_array function
+void process_array();
+
+#endif // STDLIB_H
 
 int main() {
     int *arr = malloc(5 * sizeof(int));

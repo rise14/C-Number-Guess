@@ -1,10 +1,9 @@
+#ifndef TIME_H
+#define TIME_H
 
-#include "my_stdio.h"
-#include "time.h"
+#include <stdio.h>
+#include <time.h>
 
-int main() {
-    time_t now;
-    time(&now);
-    printf("Current time: %s", ctime(&now));
-    return 0;
-}
+// Add any custom declarations or macros here if needed
+
+#endif // TIME_H
