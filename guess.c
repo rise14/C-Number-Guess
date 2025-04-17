@@ -1,7 +1,7 @@
 #ifndef MY_STDIO_H
 #define MY_STDIO_H
 
-#include <stdio.h> // Include the standard I/O library
+#include "stdio.h" // Include the standard I/O library
 
 int my_stdio_main() {
     printf("Hello from my_stdio.h!\n");
@@ -10,9 +10,9 @@ int my_stdio_main() {
 
 #endif // MY_STDIO_H
 
-#include <stdio.h>  // Include the standard I/O library
-#include <stdlib.h> // Include the standard library for rand and srand
-#include <time.h>   // Include the time library for seeding the random number generator
+#include "stdio.h"  // Include the standard I/O library
+#include "stdlib.h" // Include the standard library for rand and srand
+#include "time.h"   // Include the time library for seeding the random number generator
 
 int main() {
     int number, guess, attempts = 0;

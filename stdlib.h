@@ -1,7 +1,7 @@
 #ifndef STDLIB_H
 #define STDLIB_H
 
-#include <stdlib.h> // Include the standard library
+#include "stdlib.h" // Include the standard library
 
 // Declare the process_array function
 void process_array();

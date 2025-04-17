@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h> // Include standard library for malloc and free
+#include "stdio.h"
+#include "stdlib.h" // Include standard library for malloc and free
 
 // Function to allocate, process, and print an array
 void process_array() {
